@@ -228,12 +228,6 @@ export const FULLSTACK_SKILL = [
     height: 70,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
-  },
-  {
     skill_name: "Docker",
     image: "docker.png",
     width: 70,
@@ -248,14 +242,7 @@ export const FULLSTACK_SKILL = [
   },
 ] as const;
 
-export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-] as const;
+
 
 export const PROJECTS = [
   {
@@ -316,20 +303,20 @@ export const FOOTER_DATA = [
     ],
   },
   {
-    title: "About",
+    title: "Contact us",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Call us.",
         icon: null,
         link: "https://youtube.com",
       },
       {
-        name: "Learning about me",
+        name: "Where we are.",
         icon: null,
         link: "https://example.com",
       },
       {
-        name: "Contact Me",
+        name: "Write to us.",
         icon: null,
         link: "mailto:contact@example.com",
       },
