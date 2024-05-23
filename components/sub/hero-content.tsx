@@ -24,7 +24,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            A Tech Company for all your needs.
+            Spearheading Devlopment and Innovation.
           </h1>
         </motion.div>
 
@@ -37,7 +37,7 @@ export const HeroContent = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               the best
             </span>{" "}
-            devlopment experience.
+            devlopment and consulting experience.
           </span>
         </motion.div>
 
@@ -45,16 +45,10 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          We&apos;are a Software Development company building Website,
-          Mobile, and Software development.
+          We are a Software Development company building Website amd
+          Mobile apps. We provide the best Software development experience in the industry.
         </motion.p>
 
-        <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Learn more
-        </motion.a>
       </div>
 
       <motion.div
