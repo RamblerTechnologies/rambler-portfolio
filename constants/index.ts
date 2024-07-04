@@ -246,18 +246,25 @@ export const FULLSTACK_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "Fishtail Realty",
+    title: "SSE",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      'School of Shelter and Environment (SSE) is a not for profit organization registered with Government of Nepal in 1997.',
+    image: "/sse.png",
+    link: "https://www.sse.org.np",
   },
   {
     title: "Fishtail Mortgage",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
+      'Fishtail Mortgage optimizes the mortgage process, providing streamlined solutions that help buyers efficiently manage and secure their home loans',
+         image: "/mortgage.png",
+    link: "https://app.fishtailmortgage.com/",
+  },
+  {
+    title: "Fishtail Realty",
+    description:
+      'Fishtail Realty connects agents and brokers on a unified platform, solving realty problems and optimizing the home buying process for efficiency.',
+    image: "/realty.svg",
+    link: "https://app.fishtailre.com",
   },
 ] as const;
 
@@ -325,10 +332,7 @@ export const FOOTER_DATA = [
 ] as const;
 
 export const NAV_LINKS = [
-  {
-    title: "About Us",
-    link: "#about-us",
-  },
+
   {
     title: "Services",
     link: "#services",
